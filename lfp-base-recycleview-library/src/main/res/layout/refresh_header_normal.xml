@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="20dp"
+        android:layout_height="20dp">
+
+        <ImageView
+            android:id="@+id/iv_normal_refresh_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/refreshing_image_01"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_normal_refresh_header_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/ultra_down_list_header_default_text"
+        android:textColor="#888888"
+        android:textSize="13sp"
+        android:visibility="gone"/>
+</LinearLayout>

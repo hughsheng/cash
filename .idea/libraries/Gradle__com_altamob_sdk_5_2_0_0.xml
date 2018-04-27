@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.altamob:sdk-5.2.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/sdk-5.2.0.0.aar/23d245b97c22fef43aa32d54d82a7f80/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/sdk-5.2.0.0.aar/23d245b97c22fef43aa32d54d82a7f80/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

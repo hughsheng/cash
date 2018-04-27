@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lfp-base-recycleview-library</string>
+
+    <string name="ultra_down_list_header_default_text">下拉刷新</string>
+    <string name="ultra_down_list_header_release_text">松开刷新</string>
+    <string name="ultra_down_list_header_refresh_text">正在刷新&#8230;</string>
+    <string name="ultra_down_list_header_complete_text">刷新完成</string>
+</resources>

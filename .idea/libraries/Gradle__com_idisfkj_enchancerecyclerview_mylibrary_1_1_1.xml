@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.idisfkj.enchancerecyclerview:mylibrary-1.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mylibrary-1.1.1.aar/a3ec0329a39ad1029c8662d60ab5536e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mylibrary-1.1.1.aar/a3ec0329a39ad1029c8662d60ab5536e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.idisfkj.enchancerecyclerview/mylibrary/1.1.1/eaaabb3e06169f6065508cc894b13e5e42ea1d25/mylibrary-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

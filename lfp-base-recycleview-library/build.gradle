@@ -1,0 +1,38 @@
+apply plugin: 'com.android.library'
+
+def comLibs = rootProject.ext.comlibraries
+def cfg = rootProject.ext.configuration
+
+android {
+    compileSdkVersion cfg.compileSdkVersion
+    buildToolsVersion cfg.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion cfg.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        //最好的解决方案
+//        insidecompany {
+//
+//        }
+//        commons {
+//
+//        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile "com.android.support:appcompat-v7:$comLibs.supportLibraryVersion"
+    compile 'in.srain.cube:ultra-ptr:1.0.11'
+    compile "com.android.support:recyclerview-v7:$comLibs.supportLibraryVersion"
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+}
