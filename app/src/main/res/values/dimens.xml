@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="actionBarSize">40dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="per_height">60dp</dimen>
+
+
+    <!-- 选择分类布局 -->
+    <dimen name="infowindow_titletext_size">15sp</dimen>
+    <dimen name="infowindow_text_size">12sp</dimen>
+    <dimen name="other_card_margin">0dp</dimen>
+    <dimen name="padding_middle">5dp</dimen>
+    <dimen name="text_9.3_sp">9.3sp</dimen>
+    <dimen name="text_16_sp">16sp</dimen>
+</resources>

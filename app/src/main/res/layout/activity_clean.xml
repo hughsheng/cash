@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/include_toolbar"/>
+
+
+    <RelativeLayout
+        android:id="@+id/clean_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/clean_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penyimpanan"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/clean_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/clean_title"
+            android:layout_marginTop="5dp"
+            android:text="Bersihkan Cache"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/clean_data_size_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/clean_content"
+            android:layout_alignParentRight="true"
+            android:textSize="12sp"
+            tools:text="978.2K" />
+    </RelativeLayout>
+
+</LinearLayout>

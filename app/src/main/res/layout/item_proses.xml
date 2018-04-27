@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10.7dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <ImageView
+           android:id="@+id/proses_img"
+           android:layout_width="25dp"
+           android:layout_height="25dp"
+           android:visibility="gone"
+           android:src="@mipmap/ic_launcher" />
+
+       <TextView
+           android:id="@+id/proses_step"
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           android:background="@drawable/item_round"
+           android:gravity="center"
+           android:textColor="@color/white"
+           tools:text="1"
+           />
+
+       <TextView
+           android:id="@+id/proses_text"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+           android:layout_marginLeft="5.3dp"
+           android:textColor="@color/black"
+           android:textSize="12sp"
+           tools:text="1.memilih jumlah pinjaman" />
+   </LinearLayout>
+
+    <TextView
+        android:id="@+id/proses_describle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.3dp"
+        android:paddingTop="5dp"
+        android:textSize="12sp"
+        android:textColor="@color/gray"
+        tools:text="3143423423423"
+        />
+</LinearLayout>

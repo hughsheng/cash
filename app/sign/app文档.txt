@@ -1,0 +1,4 @@
+key Alias:cash
+key Password:311980103
+store file:cash.jks
+store Password:311980103

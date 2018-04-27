@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="106.7dp"
+            android:layout_height="16.7dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/spinner1_description"
+            android:layout_width="106.7dp"
+            android:layout_height="16.7dp"
+            android:layout_marginTop="2.7dp"
+            android:gravity="center"
+            android:textSize="6.7sp"
+            tools:text="jumlah" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="106.7dp"
+            android:layout_height="16.7dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/spinner2_description"
+            android:layout_width="106.7dp"
+            android:layout_height="16.7dp"
+            android:layout_marginTop="2.7dp"
+            android:gravity="center"
+            android:textSize="6.7sp"
+            tools:text="Waktu" />
+    </LinearLayout>
+
+</LinearLayout>

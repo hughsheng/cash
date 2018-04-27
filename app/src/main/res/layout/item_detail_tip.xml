@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="2.7dp"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:id="@+id/tip_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="1.3dp"
+        android:paddingBottom="1.3dp"
+        android:paddingLeft="2.7dp"
+        android:paddingRight="2.7dp"
+        android:layout_marginLeft="5.3dp"
+        android:background="@drawable/bg_txt_green"
+        android:textColor="@color/orange"
+        android:textSize="9.3sp"
+        tools:text="tip1" />
+
+
+</android.support.constraint.ConstraintLayout>

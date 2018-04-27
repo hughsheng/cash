@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/install_app_icon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/install_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.3dp"
+        android:layout_toRightOf="@+id/install_app_icon"
+        android:layout_centerVertical="true"
+        android:text="A Goole User"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/install_app_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/install_app_name"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:drawableRight="@mipmap/item_star"
+        android:textColor="@color/orange"
+        android:textSize="10sp"
+        tools:text="A Goole User" />
+
+    <TextView
+        android:id="@+id/install_item_end"
+        android:layout_width="65dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bg_txt_orange"
+        android:paddingBottom="2.7dp"
+        android:paddingLeft="5.3dp"
+        android:paddingRight="5.3dp"
+        android:paddingTop="2.7dp"
+        android:text="Buka"
+        android:textColor="@color/orange"
+        android:textSize="14sp" />
+</RelativeLayout>

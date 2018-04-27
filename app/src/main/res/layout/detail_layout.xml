@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="32dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/guaid1_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingLeft="10.7dp"
+                android:paddingTop="10.7dp">
+
+                <ImageView
+                    android:id="@+id/detail_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@mipmap/item_icon" />
+
+                <TextView
+                    android:id="@+id/detail_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.3dp"
+                    android:layout_marginTop="2.6dp"
+                    android:layout_toRightOf="@+id/detail_icon"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="Easycash" />
+
+                <TextView
+                    android:id="@+id/detail_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.3dp"
+                    android:layout_marginTop="3.3dp"
+                    android:layout_toRightOf="@+id/detail_title"
+                    android:drawablePadding="2dp"
+                    android:drawableRight="@mipmap/item_star"
+                    android:textColor="@color/orange"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="4.9" />
+
+                <TextView
+                    android:id="@+id/detail_see_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10.7dp"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@mipmap/back_black_right"
+                    android:text="Details"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/detail_description1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingLeft="10.7dp"
+                android:paddingTop="2.7dp"
+                android:textColor="@color/text_item_color"
+                android:textSize="10sp"
+                tools:text="Disetujui 4.6    Kecepatan 4.6    Penagihan 5.0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="10.7dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="5.3dp">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/detail_info_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/calculator_layout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5.3dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/borrow_type"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:drawableRight="@mipmap/ic_down_black"
+                    android:drawablePadding="-10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/bg_caculator"
+                    android:gravity="center"
+                    tools:text="dsafad"
+                    />
+                <TextView
+                    android:id="@+id/borrow_price"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:drawablePadding="-10dp"
+                    android:paddingRight="10dp"
+                    android:drawableRight="@mipmap/ic_down_black"
+                    android:background="@drawable/bg_caculator"
+                    android:gravity="center"
+                    tools:text="dsafad"
+                    />
+                <TextView
+                    android:id="@+id/borrow_time"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:drawablePadding="-10dp"
+                    android:paddingRight="10dp"
+                    android:drawableRight="@mipmap/ic_down_black"
+                    android:background="@drawable/bg_caculator"
+                    android:gravity="center"
+                    tools:text="dsafad"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10.7dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/pen_txt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:text="Rp 50.000" />
+
+                    <TextView
+                        android:id="@+id/pin_txt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:text="Rp 50.000" />
+
+                    <TextView
+                        android:id="@+id/bun_txt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:text="Rp 50.000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/pen_description"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Pembayaran"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/pin_description"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Pinjaman"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/bun_description"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Bunga+admin"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/detail_tip_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.3dp"
+                android:background="@color/white"
+                android:paddingBottom="5.3dp"
+                android:paddingTop="5.3dp">
+
+                <ImageView
+                    android:id="@+id/tip_img"
+                    android:layout_width="70dp"
+                    android:layout_height="56.7dp"
+                    android:layout_marginLeft="10.7dp"
+                    android:src="@mipmap/item_icon" />
+
+                <TextView
+                    android:id="@+id/tip_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.3dp"
+                    android:layout_toRightOf="@+id/tip_img"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    tools:text="tips title" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/detail_tip_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/tip_img"
+                    android:layout_marginLeft="5.3dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@+id/tip_img" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/guaid2_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.3dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:paddingLeft="10.7dp"
+                android:paddingRight="10.7dp"
+                android:paddingTop="8dp">
+
+                <TextView
+                    android:id="@+id/proses"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Proses Peminjaman"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/proses_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dana_info_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.3dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:paddingLeft="10.7dp"
+                android:paddingRight="10.7dp"
+                android:paddingTop="8dp">
+
+                <TextView
+                    android:id="@+id/informasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Informasi Audit"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/informasi_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/guaid3_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.3dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:paddingLeft="10.7dp"
+                android:paddingRight="10.7dp"
+                android:paddingTop="8dp">
+
+                <TextView
+                    android:id="@+id/komentar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Komentar"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/komentar_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/download_text"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        tools:background="@drawable/side_nav_bar"
+        android:gravity="center"
+        tools:text="DonwLoad dan Pinjam dari"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+</RelativeLayout>
